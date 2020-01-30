@@ -801,23 +801,30 @@
 			
 		</header><!-- /.main-header -->
 	
-		<main id="content" class="content">
+		<main id="content" class="content">			
 			
-			<section class="vc_row bg-cover bg-center fullheight d-flex align-items-center py-5 mb-60" 
-			data-slideshow-bg="true"
-			data-slideshow-options='{ "effect": "scale", "imageArray": ["./assets/images/slide-1.jpg", "./assets/images/slide-2.jpg"] }'>
+			<section class="vc_row bg-cover bg-center fullheight d-flex align-items-center py-5" data-row-bg="./assets/images/slide-1.jpg">
 
 				<span class="row-bg-loader"></span>
-				<div class="liquid-row-overlay bg-fade-dark-01"></div>
+				<!-- <div class="liquid-row-overlay bg-fade-dark-01"></div> -->
 
 				<div class="container">
 					<div class="row d-flex flex-wrap align-items-center">
 						
 						<div
-							class="lqd-column col-md-8 col-md-offset-2 text-center"
+							class="lqd-column col-md-6"
 							data-custom-animations="true"
 							data-ca-options='{ "triggerHandler":"inview", "animationTarget":"all-childs", "duration":"1200", "delay":"150", "easing":"easeOutQuint", "direction":"forward", "initValues":{"translateY":60, "translateZ":-160, "rotateX":-84, "opacity":0}, "animations":{"translateY":0, "translateZ":0, "rotateX":0, "opacity":1} }'
 						>
+
+							<div class="ld-fancy-heading mask-text">
+								<p class="text-white font-size-18" data-split-text="true" data-split-options='{ "type": "words" }'>
+									<span class="ld-fh-txt">
+										<i class="fa fa-youtube-play fa-2x mr-3 mb-4"></i>
+										<span class="opacity-06">The best collection ever built.</span>
+									</span>
+								</p>
+							</div><!-- /.ld-fancy-heading -->
 
 							<div class="ld-fancy-heading">
 								<h2
@@ -829,19 +836,33 @@
 									data-text-rotator="true"
 								>
 									<span class="ld-fh-txt">
-										Lifestyle. By
-										<span class="txt-rotate-keywords">
-											<span class="keyword active">design</span>
-											<span class="keyword">innovation</span>
-											<span class="keyword">quality</span>
-										</span>.
+										Lifestyle. <span class="txt-rotate-keywords">
+											<span class="keyword active">By design.</span>
+											<span class="keyword">By design.</span>
+										</span>
 									</span>
 								</h2>
 							</div><!-- /.ld-fancy-heading -->
 
-							<a href="#" class="btn btn-solid semi-round btn-bordered border-thin">
+							<div class="ld-fancy-heading mask-text">
+								<p class="text-white font-size-21" data-split-text="true" data-split-options='{ "type": "words" }'>
+									<span class="ld-fh-txt">
+										<span class="opacity-06">Make a website you’ll be proud of.</span>
+									</span>
+								</p>
+							</div><!-- /.ld-fancy-heading -->
+
+						</div><!-- /.col-md-6 -->
+
+						<div class="lqd-column col-md-6 text-left text-md-center" data-custom-animations="true" data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":"1200","startDelay":"1500","delay":100,"easing":"easeOutQuint","direction":"forward","initValues":{"scaleX":0.25,"scaleY":0.25,"opacity":0},"animations":{"scaleX":1,"scaleY":1,"opacity":1}}'>
+
+							<a href="https://www.youtube.com/watch?v=LjaKHqDbzSA" class="btn btn-naked btn-gradient fresco btn-icon-block btn-icon-top btn-icon-circle btn-icon-solid btn-icon-xxlg">
 								<span>
-									<span class="btn-txt">Register your interest</span>
+									<span class="btn-icon font-size-16">
+										<span class="btn-gradient-bg"></span>
+										<span class="btn-gradient-bg btn-gradient-bg-hover"></span>
+										<i class="fa fa-play"></i>
+									</span>
 								</span>
 							</a>
 
@@ -849,6 +870,13 @@
 
 					</div><!-- /.row -->
 				</div><!-- /.container -->
+
+				<span class="figure-wrap figure-wrap-1" data-custom-animations="true" data-ca-options='{ "triggerHandler":"inview", "animationTarget":"all-childs", "duration":"1200","startDelay":"1500","delay":100, "easing":"easeOutQuint", "direction":"forward", "initValues":{"translateY":60, "opacity":0}, "animations":{"translateY":0, "opacity":1} }'>
+					<span class="figure figure-1"></span>
+					<span class="figure figure-2"></span>
+					<span class="figure figure-3"></span>
+					<span class="figure figure-4"></span>
+				</span>
 
 			</section>
 
