@@ -244,4 +244,26 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6 .h6 {
         border-bottom-style: solid;
         border-left-style: solid; }
 
+.iconbox-1 {
+  margin-bottom: 0; }
+  .iconbox-1 .iconbox-icon-container {
+    margin-bottom: 0;
+    width: 100%;
+    max-width: 1500px;
+    flex-grow: 1; }
+    .iconbox-1 .iconbox-icon-container > svg {
+      width: 100%;
+      height: auto; }
+
+.iconbox-2 {
+  margin-top: -265px;
+  margin-bottom: 70px; }
+
+.iconbox-3 {
+  margin-top: 50px; }
+
+.section-2 {
+  padding-top: 1px;
+  padding-bottom: 170px; }
+
 /*# sourceMappingURL=custom.css.map */

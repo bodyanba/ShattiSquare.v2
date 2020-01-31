@@ -803,72 +803,45 @@
 	
 		<main id="content" class="content">			
 			
-			<section class="vc_row bg-cover bg-center fullheight d-flex align-items-center py-5" data-row-bg="./assets/images/slide-1.jpg">
+			<section class="vc_row bg-cover bg-center fullheight d-flex align-items-center text-center py-5" 
+			data-slideshow-bg="true"
+			data-slideshow-options='{ "effect": "scale", "imageArray": ["./assets/images/slide-1.jpg", "./assets/images/slide-2.jpg"] }'>
 
 				<span class="row-bg-loader"></span>
-				<!-- <div class="liquid-row-overlay bg-fade-dark-01"></div> -->
 
 				<div class="container">
-					<div class="row d-flex flex-wrap align-items-center">
 						
-						<div
-							class="lqd-column col-md-6"
-							data-custom-animations="true"
-							data-ca-options='{ "triggerHandler":"inview", "animationTarget":"all-childs", "duration":"1200", "delay":"150", "easing":"easeOutQuint", "direction":"forward", "initValues":{"translateY":60, "translateZ":-160, "rotateX":-84, "opacity":0}, "animations":{"translateY":0, "translateZ":0, "rotateX":0, "opacity":1} }'
-						>
+					<div data-custom-animations="true" data-ca-options='{ "triggerHandler":"inview", "animationTarget":"all-childs", "duration":"1200", "delay":"150", "easing":"easeOutQuint", "direction":"forward", "initValues":{"translateY":60, "translateZ":-160, "rotateX":-84, "opacity":0}, "animations":{"translateY":0, "translateZ":0, "rotateX":0, "opacity":1} }'
+					>
 
-							<div class="ld-fancy-heading mask-text">
-								<p class="text-white font-size-18" data-split-text="true" data-split-options='{ "type": "words" }'>
-									<span class="ld-fh-txt">
-										<i class="fa fa-youtube-play fa-2x mr-3 mb-4"></i>
-										<span class="opacity-06">The best collection ever built.</span>
-									</span>
-								</p>
-							</div><!-- /.ld-fancy-heading -->
-
-							<div class="ld-fancy-heading">
-								<h2
-									class="text-white ltr-sp--015"
-									data-fittext="true"
-									data-fittext-options='{"compressor":0.675,"maxFontSize":"70","minFontSize":"45"}'
-									data-split-text="true"
-									data-split-options='{ "type": "lines" }'
-									data-text-rotator="true"
-								>
-									<span class="ld-fh-txt">
-										Lifestyle. <span class="txt-rotate-keywords">
-											<span class="keyword active">By design.</span>
-											<span class="keyword">By design.</span>
-										</span>
-									</span>
-								</h2>
-							</div><!-- /.ld-fancy-heading -->
-
-							<div class="ld-fancy-heading mask-text">
-								<p class="text-white font-size-21" data-split-text="true" data-split-options='{ "type": "words" }'>
-									<span class="ld-fh-txt">
-										<span class="opacity-06">Make a website you’ll be proud of.</span>
-									</span>
-								</p>
-							</div><!-- /.ld-fancy-heading -->
-
-						</div><!-- /.col-md-6 -->
-
-						<div class="lqd-column col-md-6 text-left text-md-center" data-custom-animations="true" data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":"1200","startDelay":"1500","delay":100,"easing":"easeOutQuint","direction":"forward","initValues":{"scaleX":0.25,"scaleY":0.25,"opacity":0},"animations":{"scaleX":1,"scaleY":1,"opacity":1}}'>
-
-							<a href="https://www.youtube.com/watch?v=LjaKHqDbzSA" class="btn btn-naked btn-gradient fresco btn-icon-block btn-icon-top btn-icon-circle btn-icon-solid btn-icon-xxlg">
-								<span>
-									<span class="btn-icon font-size-16">
-										<span class="btn-gradient-bg"></span>
-										<span class="btn-gradient-bg btn-gradient-bg-hover"></span>
-										<i class="fa fa-play"></i>
-									</span>
+						<div class="ld-fancy-heading">
+							<h2
+								class="text-white ltr-sp--015"
+								data-fittext="true"
+								data-fittext-options='{"compressor":0.675,"maxFontSize":"70","minFontSize":"45"}'
+								data-split-text="true"
+								data-split-options='{ "type": "words" }'
+								data-text-rotator="true"
+							>
+								<span class="ld-fh-txt">
+									Lifestyle. By
+									<span class="txt-rotate-keywords">
+										<span class="keyword active">design</span>
+										<span class="keyword">innovation</span>
+										<span class="keyword">quality</span>
+									</span>.
 								</span>
-							</a>
+							</h2>
+						</div><!-- /.ld-fancy-heading -->
 
-						</div><!-- /.col-md-6 -->
+						<a href="#" class="btn btn-solid semi-round btn-bordered border-thin">
+							<span>
+								<span class="btn-txt">Register your interest</span>
+							</span>
+						</a>
 
-					</div><!-- /.row -->
+					</div>
+
 				</div><!-- /.container -->
 
 				<span class="figure-wrap figure-wrap-1" data-custom-animations="true" data-ca-options='{ "triggerHandler":"inview", "animationTarget":"all-childs", "duration":"1200","startDelay":"1500","delay":100, "easing":"easeOutQuint", "direction":"forward", "initValues":{"translateY":60, "opacity":0}, "animations":{"translateY":0, "opacity":1} }'>
@@ -880,104 +853,30 @@
 
 			</section>
 
-			<section class="vc_row pt-60 pb-60">
+			<section class="vc_row section-1 font-size-24 text-white text-center bg-charade">
+				<span class="figure-wrap figure-wrap-2">
+					<span class="figure figure-1"></span>
+					<span class="figure figure-2"></span>
+					<span class="figure figure-3"></span>
+					<span class="figure figure-4"></span>
+					<span class="figure figure-5"></span>
+				</span>
 				<div class="container">
-					<div class="row">
-
-						<div class="lqd-column col-md-3 col-sm-6">
-
-							<div
-								class="iconbox iconbox-icon-shadow iconbox-circle iconbox-xl iconbox-heading-sm px-2"
-								id="ld_icon_box_5c496db22efb0"
-								data-animate-icon="true"
-								data-plugin-options='{"resetOnHover":true,"color":"rgb(41, 54, 92)","hoverColor":"rgb(255, 255, 255)"}'
-							>
-								<div class="iconbox-icon-wrap">
-									<span class="iconbox-icon-container bg-white">
-										<span class="iconbox-icon-hover-bg bg-gradient-primary-br"></span>
-										<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve"> <g> <rect x="1" y="15" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="54" height="42" /> <polyline fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="11,12 11,7 63,7 63,50 58,50 	" /> <line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="1" y1="23" x2="55" y2="23" /> <line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="10" y1="19" x2="6" y2="19" /> <line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="18" y1="19" x2="14" y2="19" /> <line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="26" y1="19" x2="22" y2="19" /> </g> </svg>
-									</span>
-								</div><!-- /.iconbox-icon-wrap -->
-								<div class="contents">
-									<h3 class="font-weight-semibold">Huge Collection</h3>
-									<p class="font-size-16 lh-165 text-fade-dark-04">The latest design trends meet hand-crafted templates in Ave Collection.</p>
-								</div>
-
-							</div><!-- /.iconbox -->
-
-						</div><!-- /.col-md-3 col-sm-6 -->
-
-						<div class="lqd-column col-md-3 col-sm-6">
-							
-							<div
-								class="iconbox iconbox-icon-shadow iconbox-circle iconbox-xl iconbox-heading-sm px-2"
-								id="ld_icon_box_5c496db22efb1"
-								data-animate-icon="true"
-								data-plugin-options='{"resetOnHover":true,"color":"rgb(41, 54, 92)","hoverColor":"rgb(255, 255, 255)"}'
-							>
-								<div class="iconbox-icon-wrap">
-									<span class="iconbox-icon-container bg-white">
-										<span class="iconbox-icon-hover-bg bg-gradient-primary-br"></span>
-										<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve"> <line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="32" y1="33" x2="32" y2="51" /> <line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="41" y1="42" x2="23" y2="42" /> <polygon fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="44,18 54,18 54,63 10,63 10,18 20,18 " /> <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M22,24V11c0-5.523,4.477-10,10-10s10,4.477,10,10v13 " /> </svg>
-									</span>
-								</div><!-- /.iconbox-icon-wrap -->
-								<div class="contents">
-									<h3 class="font-weight-semibold">Next-Gen Online Store</h3>
-									<p class="font-size-16 lh-165 text-fade-dark-04">Open a beautiful store, increase your conversion rates and boost your sales.</p>
-								</div>
-
-							</div><!-- /.iconbox -->
-
-						</div><!-- /.col-md-3 col-sm-6 -->
-
-						<div class="lqd-column col-md-3 col-sm-6">
-
-							<div
-								class="iconbox iconbox-icon-shadow iconbox-circle iconbox-xl iconbox-heading-sm px-2"
-								id="ld_icon_box_5c496db22ef2"
-								data-animate-icon="true"
-								data-plugin-options='{"resetOnHover":true,"color":"rgb(41, 54, 92)","hoverColor":"rgb(255, 255, 255)"}'
-							>
-								<div class="iconbox-icon-wrap">
-									<span class="iconbox-icon-container bg-white">
-										<span class="iconbox-icon-hover-bg bg-gradient-primary-br"></span>
-										<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve"> <polygon fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="32,47 63,47 63,5 1,5 1,47 18,47 18,59 " /> <polyline fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" points="23,26 30,33 43,20 " /> </svg>
-									</span>
-								</div><!-- /.iconbox-icon-wrap -->
-								<div class="contents">
-									<h3 class="font-weight-semibold">AI-Powered Support</h3>
-									<p class="font-size-16 lh-165 text-fade-dark-04">Support, makes your experience faster and more accurate than ever.</p>
-								</div>
-
-							</div><!-- /.iconbox -->
-
-						</div><!-- /.col-md-3 col-sm-6 -->
-
-						<div class="lqd-column col-md-3 col-sm-6">
-
-							<div
-								class="iconbox iconbox-icon-shadow iconbox-circle iconbox-xl iconbox-heading-sm px-2"
-								id="ld_icon_box_5c496db22ef3"
-								data-animate-icon="true"
-								data-plugin-options='{"resetOnHover":true,"color":"rgb(41, 54, 92)","hoverColor":"rgb(255, 255, 255)"}'
-							>
-								<div class="iconbox-icon-wrap">
-									<span class="iconbox-icon-container bg-white">
-										<span class="iconbox-icon-hover-bg bg-gradient-primary-br"></span>
-										<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve"> <line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="36" y1="34" x2="41" y2="39" /> <rect x="46.257" y="35.065" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 120.5036 47.0858)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="8.485" height="26.87" /> <polygon fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="12,16 18,10 8,4 6,6 " /> <line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="28" y1="26" x2="15" y2="13" /> <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M58,12.5l-8,3.75l-4-4.125l3.5-8.062l0,0 C39.5,4.062,37,9,37,14v4L3.5,52l-1.75,6l2.125,2l6.062-1.5L44,25h4C53,25,58,22.5,58,12.5L58,12.5z" /> </svg>
-									</span>
-								</div><!-- /.iconbox-icon-wrap -->
-								<div class="contents">
-									<h3 class="font-weight-semibold">Smart Installation Tools</h3>
-									<p class="font-size-16 lh-165 text-fade-dark-04">Tools are beyond the one-click install, async tech merges with ultimate flexibility.</p>
-								</div>
-
-							</div><!-- /.iconbox -->
-
-						</div><!-- /.col-md-3 col-sm-6 -->
-
-					</div><!-- /.row -->
-				</div><!-- /.container -->
+					<div class="row d-flex flex-wrap justify-content-center">
+						<div class="col-md-11 col-lg-9" data-custom-animations="true" data-ca-options='{"triggerHandler":"inview","animationTarget":".split-inner","duration":700,"startDelay":"180","delay":100,"easing":"easeOutQuint","direction":"forward","initValues":{"translateY":50,"opacity":0},"animations":{"translateY":0,"opacity":1}}'>
+							<div data-split-text="true" data-split-options='{"type":"lines"}'>Shatti Square has been expressly designed and developed to offer a connected new approach to premium urban living, leisure and entertainment. Entering the fabric of Omani life in 2020, it will be completed in 2022.</div>
+						</div>
+					</div>
+				</div>
+				<span class="figure-wrap figure-wrap-3">
+					<span class="figure figure-1"></span>
+					<span class="figure figure-2"></span>
+					<span class="figure figure-3"></span>
+					<span class="figure figure-4"></span>
+					<span class="figure figure-5"></span>
+					<span class="figure figure-6"></span>
+					<span class="figure figure-7"></span>
+				</span>
 			</section>
 
 			<section class="vc_row pt-50 pb-100">
